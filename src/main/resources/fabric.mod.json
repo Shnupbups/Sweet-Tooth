@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "sweettooth",
+  "version": "1.0.0",
+
+  "name": "Sweet Tooth",
+  "description": "Adds many new uses for Sugar",
+  "authors": [
+    "Shnupbups"
+  ],
+
+  "license": "LGPLv3",
+  "icon": "assets/sweettooth/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.shnupbups.sweettooth.SweetTooth"
+    ],
+    "client": [
+      "com.shnupbups.sweettooth.SweetToothClient"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.6.1",
+    "fabric": "*"
+  }
+}

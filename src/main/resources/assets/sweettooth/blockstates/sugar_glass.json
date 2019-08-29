@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "cracks=0": { "model": "sweettooth:block/sugar_glass" },
+        "cracks=1": { "model": "sweettooth:block/sugar_glass_1" },
+        "cracks=2": { "model": "sweettooth:block/sugar_glass_2" },
+        "cracks=3": { "model": "sweettooth:block/sugar_glass_3" }
+    }
+}
