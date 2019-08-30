@@ -1,7 +1,7 @@
 {
     "parent": "block/template_glass_pane_side",
     "textures": {
-        "particle": "minecraft:glass",
+        "particle": "minecraft:block/glass",
         "edge": "sweettooth:block/sugar_glass_pane_top",
         "pane": "sweettooth:block/sugar_glass_2"
     }

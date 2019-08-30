@@ -1,6 +1,7 @@
 package com.shnupbups.sweettooth.init;
 
 import com.shnupbups.sweettooth.SweetTooth;
+import com.shnupbups.sweettooth.blocks.CakeBlock;
 import com.shnupbups.sweettooth.blocks.SugarBlock;
 import com.shnupbups.sweettooth.blocks.SugarGlassBlock;
 import com.shnupbups.sweettooth.blocks.SugarGlassPaneBlock;
@@ -19,19 +20,26 @@ public class ModBlocks {
 	public static SugarGlassBlock SUGAR_GLASS = new SugarGlassBlock(Block.Settings.copy(Blocks.GLASS));
 	public static SugarGlassPaneBlock SUGAR_GLASS_PANE = new SugarGlassPaneBlock(Block.Settings.copy(Blocks.GLASS_PANE));
 	public static ConcretePowderBlock SUGAR_SAND = new ConcretePowderBlock(SUGAR_GLASS, Block.Settings.copy(Blocks.SAND));
+	public static CakeBlock CHOCOLATE_CAKE = new CakeBlock(Block.Settings.copy(Blocks.CAKE));
 	
 	public static void init() {
 		register("sugar_block", SUGAR_BLOCK);
 		register("sugar_glass", SUGAR_GLASS);
-		register("sugar_glass_pane", SUGAR_GLASS_PANE);
+		register("sugar_glass_pane", SUGAR_GLASS_PANE, new Item.Settings().group(ItemGroup.DECORATIONS));
 		register("sugar_sand", SUGAR_SAND);
+		register("chocolate_cake", CHOCOLATE_CAKE, new Item.Settings().group(ItemGroup.FOOD).maxCount(1));
 	}
 	
-	public static void register(String name, Block block) {
+	public static BlockItem register(String name, Block block, Item.Settings settings) {
 		Identifier id = SweetTooth.getId(name);
 		Registry.register(Registry.BLOCK, id, block);
-		BlockItem item = new BlockItem(block, (new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
+		BlockItem item = new BlockItem(block, settings);
 		item.appendBlocks(Item.BLOCK_ITEMS, item);
 		Registry.register(Registry.ITEM, id, item);
+		return item;
+	}
+	
+	public static BlockItem register(String name, Block block) {
+		return register(name, block, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
 	}
 }

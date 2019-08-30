@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-	"particle": "minecraft:glass",
+	"particle": "minecraft:block/glass",
 	"all": "sweettooth:block/sugar_glass_3"
   }
 }

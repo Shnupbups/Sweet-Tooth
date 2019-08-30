@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "minecraft:sugar"
+  },
+  "result": "sweettooth:caramel",
+  "experience": 0.35,
+  "cookingtime": 100
+}

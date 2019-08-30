@@ -1,0 +1,23 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+	"c",
+	"a",
+	"/"
+  ],
+  "key": {
+	"c": {
+	  "item": "sweettooth:caramel"
+	},
+	"a": {
+	  "item": "minecraft:apple"
+	},
+	"/": {
+	  "item": "minecraft:stick"
+	}
+  },
+  "result": {
+	"item": "sweettooth:caramel_apple",
+	"count": 1
+  }
+}
