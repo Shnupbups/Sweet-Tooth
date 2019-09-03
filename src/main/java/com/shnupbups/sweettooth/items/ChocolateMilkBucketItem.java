@@ -3,7 +3,6 @@ package com.shnupbups.sweettooth.items;
 import net.minecraft.advancement.criterion.Criterions;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffect;
-import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffectType;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
@@ -14,6 +13,7 @@ import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.stat.Stats;
 import net.minecraft.world.World;
 
+import java.util.HashSet;
 import java.util.Iterator;
 
 public class ChocolateMilkBucketItem extends MilkBucketItem {
@@ -33,7 +33,7 @@ public class ChocolateMilkBucketItem extends MilkBucketItem {
 		}
 		
 		if (!world_1.isClient) {
-			Iterator<StatusEffect> iterator_1 = livingEntity_1.getActiveStatusEffects().keySet().iterator();
+			Iterator<StatusEffect> iterator_1 = new HashSet<>(livingEntity_1.getActiveStatusEffects().keySet()).iterator();
 			
 			while(iterator_1.hasNext()) {
 				StatusEffect se = iterator_1.next();
