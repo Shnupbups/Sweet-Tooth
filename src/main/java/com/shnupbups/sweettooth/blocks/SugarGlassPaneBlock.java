@@ -1,29 +1,23 @@
 package com.shnupbups.sweettooth.blocks;
 
-import com.shnupbups.sweettooth.ModProperties;
-
 import net.minecraft.block.Block;
-import net.minecraft.block.BlockRenderLayer;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.PaneBlock;
 import net.minecraft.entity.Entity;
-import net.minecraft.state.StateFactory;
+import net.minecraft.state.StateManager;
 import net.minecraft.state.property.IntProperty;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
+import com.shnupbups.sweettooth.ModProperties;
+
 public class SugarGlassPaneBlock extends PaneBlock {
 	public static final IntProperty CRACKS;
 	
-	public SugarGlassPaneBlock(Block.Settings settings) {
+	public SugarGlassPaneBlock(Settings settings) {
 		super(settings);
-		this.setDefaultState(this.stateFactory.getDefaultState().with(CRACKS, 0));
-	}
-	
-	@Override
-	public BlockRenderLayer getRenderLayer() {
-		return BlockRenderLayer.TRANSLUCENT;
+		this.setDefaultState(this.getStateManager().getDefaultState().with(CRACKS, 0));
 	}
 	
 	@Override
@@ -61,9 +55,9 @@ public class SugarGlassPaneBlock extends PaneBlock {
 	}
 	
 	@Override
-	protected void appendProperties(StateFactory.Builder<Block, BlockState> stateFactory$Builder_1) {
-		super.appendProperties(stateFactory$Builder_1);
-		stateFactory$Builder_1.add(CRACKS);
+	protected void appendProperties(StateManager.Builder<Block, BlockState> stateManager) {
+		super.appendProperties(stateManager);
+		stateManager.add(CRACKS);
 	}
 	
 	static {

@@ -1,14 +1,13 @@
 package com.shnupbups.sweettooth;
 
-import com.shnupbups.sweettooth.init.ModBlocks;
-import com.shnupbups.sweettooth.init.ModItems;
-
 import net.fabricmc.api.ModInitializer;
-import net.fabricmc.fabric.impl.registry.FuelRegistryImpl;
+import net.fabricmc.fabric.impl.content.registry.FuelRegistryImpl;
 
-import net.minecraft.item.Item;
 import net.minecraft.tag.Tag;
 import net.minecraft.util.Identifier;
+
+import com.shnupbups.sweettooth.init.ModBlocks;
+import com.shnupbups.sweettooth.init.ModItems;
 
 public class SweetTooth implements ModInitializer {
 	@Override

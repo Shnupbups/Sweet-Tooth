@@ -13,36 +13,38 @@ import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.stat.Stats;
 import net.minecraft.world.World;
 
-import java.util.HashSet;
-import java.util.Iterator;
+import java.util.ArrayList;
 
 public class ChocolateMilkBucketItem extends MilkBucketItem {
 	public ChocolateMilkBucketItem(Item.Settings settings) {
 		super(settings);
 	}
 	
-	public ItemStack finishUsing(ItemStack itemStack_1, World world_1, LivingEntity livingEntity_1) {
-		if (livingEntity_1 instanceof ServerPlayerEntity) {
-			ServerPlayerEntity serverPlayerEntity_1 = (ServerPlayerEntity)livingEntity_1;
-			Criterions.CONSUME_ITEM.handle(serverPlayerEntity_1, itemStack_1);
-			serverPlayerEntity_1.incrementStat(Stats.USED.getOrCreateStat(this));
+	@Override
+	public ItemStack finishUsing(ItemStack stack, World world, LivingEntity user) {
+		if (user instanceof ServerPlayerEntity) {
+			ServerPlayerEntity serverPlayerEntity = (ServerPlayerEntity)user;
+			Criterions.CONSUME_ITEM.trigger(serverPlayerEntity, stack);
+			serverPlayerEntity.incrementStat(Stats.USED.getOrCreateStat(this));
 		}
 		
-		if (livingEntity_1 instanceof PlayerEntity && !((PlayerEntity)livingEntity_1).abilities.creativeMode) {
-			itemStack_1.decrement(1);
+		if (user instanceof PlayerEntity && !((PlayerEntity)user).abilities.creativeMode) {
+			stack.decrement(1);
 		}
 		
-		if (!world_1.isClient) {
-			Iterator<StatusEffect> iterator_1 = new HashSet<>(livingEntity_1.getActiveStatusEffects().keySet()).iterator();
-			
-			while(iterator_1.hasNext()) {
-				StatusEffect se = iterator_1.next();
-				if(se.getType() == StatusEffectType.HARMFUL) {
-					livingEntity_1.removeStatusEffect(se);
+		if (!world.isClient) {
+			ArrayList<StatusEffect> negativeEffects = new ArrayList<>();
+			user.getActiveStatusEffects().forEach((effect, instance) -> {
+				if(effect.getType().equals(StatusEffectType.HARMFUL)) {
+					negativeEffects.add(effect);
 				}
+			});
+			
+			for(StatusEffect effect:negativeEffects) {
+				user.tryRemoveStatusEffect(effect);
 			}
 		}
 		
-		return itemStack_1.isEmpty() ? new ItemStack(Items.BUCKET) : itemStack_1;
+		return stack.isEmpty() ? new ItemStack(Items.BUCKET) : stack;
 	}
 }
