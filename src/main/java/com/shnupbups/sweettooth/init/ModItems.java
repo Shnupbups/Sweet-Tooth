@@ -13,7 +13,7 @@ import com.shnupbups.sweettooth.items.CottonCandyItem;
 import com.shnupbups.sweettooth.items.FoodOnAStickItem;
 
 public class ModItems {
-	public static Item COTTON_CANDY = new CottonCandyItem(new Item.Settings().recipeRemainder(Items.STICK).group(ItemGroup.FOOD).maxCount(1).food(new FoodComponent.Builder().hunger(2).saturationModifier(0.1f).snack().build()));
+	public static Item COTTON_CANDY = new CottonCandyItem(new Item.Settings().group(ItemGroup.FOOD).maxCount(1).food(new FoodComponent.Builder().hunger(2).saturationModifier(0.1f).snack().build()));
 	public static Item CARAMEL = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(2).saturationModifier(0.1f).build()));
 	public static Item APPLE_PIE = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(8).saturationModifier(0.3f).build()));
 	public static Item CHOCOLATE_MILK_BUCKET = new ChocolateMilkBucketItem(new Item.Settings().recipeRemainder(Items.BUCKET).group(ItemGroup.MISC).maxCount(1));
