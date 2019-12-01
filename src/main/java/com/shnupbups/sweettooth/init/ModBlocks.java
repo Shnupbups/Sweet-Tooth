@@ -31,8 +31,6 @@ public class ModBlocks {
 		register("sugar_glass_pane", SUGAR_GLASS_PANE, new Item.Settings().group(ItemGroup.DECORATIONS));
 		register("sugar_sand", SUGAR_SAND);
 		register("chocolate_cake", CHOCOLATE_CAKE, new Item.Settings().group(ItemGroup.FOOD).maxCount(1));
-		
-		BlockRenderLayerMapImpl.INSTANCE.putBlocks(RenderLayer.getTranslucent(), SUGAR_GLASS, SUGAR_GLASS_PANE);
 	}
 	
 	public static BlockItem register(String name, Block block, Item.Settings settings) {
