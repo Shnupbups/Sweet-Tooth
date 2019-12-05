@@ -14,6 +14,6 @@ public class FoodOnAStickItem extends Item {
 	@Override
 	public ItemStack finishUsing(ItemStack stack, World world, LivingEntity user) {
 		super.finishUsing(stack, world, user);
-		return new ItemStack(Items.STICK);
+			return new ItemStack(Items.STICK);
 	}
 }

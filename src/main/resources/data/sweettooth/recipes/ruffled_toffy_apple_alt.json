@@ -1,0 +1,18 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+	{
+	  "item": "sweettooth:toffy_apple"
+	},
+	{
+	  "item": "minecraft:feather"
+	},
+	{
+	  "item": "minecraft:blaze_powder"
+	}
+  ],
+  "result": {
+	"item": "sweettooth:ruffled_toffy_apple",
+	"count": 1
+  }
+}
