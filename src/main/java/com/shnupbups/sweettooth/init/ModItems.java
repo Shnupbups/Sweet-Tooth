@@ -1,5 +1,6 @@
 package com.shnupbups.sweettooth.init;
 
+import net.fabricmc.fabric.impl.content.registry.FuelRegistryImpl;
 import net.minecraft.item.FoodComponent;
 import net.minecraft.item.HoneyBottleItem;
 import net.minecraft.item.Item;
@@ -31,6 +32,9 @@ public class ModItems {
 		register("caramel_apple", CARAMEL_APPLE);
 		register("sugar_dusted_coal", SUGAR_DUSTED_COAL);
 		register("sugar_dusted_charcoal", SUGAR_DUSTED_CHARCOAL);
+
+		FuelRegistryImpl.INSTANCE.add(SUGAR_DUSTED_COAL, 2000);
+		FuelRegistryImpl.INSTANCE.add(SUGAR_DUSTED_CHARCOAL, 2000);
 	}
 	
 	public static void register(String name, Item item) {
