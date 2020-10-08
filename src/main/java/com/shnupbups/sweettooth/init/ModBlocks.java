@@ -23,7 +23,7 @@ public class ModBlocks {
 	public static Block SUGAR_GLASS = new SugarGlassBlock(Block.Settings.copy(Blocks.GLASS));
 	public static Block SUGAR_GLASS_PANE = new SugarGlassPaneBlock(Block.Settings.copy(Blocks.GLASS_PANE));
 	public static Block SUGAR_SAND = new ConcretePowderBlock(SUGAR_GLASS, Block.Settings.copy(Blocks.SAND));
-	public static Block CHOCOLATE_CAKE = new ModCakeBlock(Block.Settings.copy(Blocks.CAKE));
+	public static Block CHOCOLATE_CAKE = new ModCakeBlock();
 	
 	public static void init() {
 		register("sugar_block", SUGAR_BLOCK);
