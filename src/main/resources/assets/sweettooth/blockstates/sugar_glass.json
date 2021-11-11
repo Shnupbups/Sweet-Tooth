@@ -2,7 +2,19 @@
     "variants": {
         "cracks=0": { "model": "sweettooth:block/sugar_glass" },
         "cracks=1": { "model": "sweettooth:block/sugar_glass_1" },
-        "cracks=2": { "model": "sweettooth:block/sugar_glass_2" },
-        "cracks=3": { "model": "sweettooth:block/sugar_glass_3" }
+        "cracks=2": { "model": "sweettooth:block/sugar_glass_1" },
+        "cracks=3": { "model": "sweettooth:block/sugar_glass_1" },
+        "cracks=4": { "model": "sweettooth:block/sugar_glass_1" },
+        "cracks=5": { "model": "sweettooth:block/sugar_glass_1" },
+        "cracks=6": { "model": "sweettooth:block/sugar_glass_2" },
+        "cracks=7": { "model": "sweettooth:block/sugar_glass_2" },
+        "cracks=8": { "model": "sweettooth:block/sugar_glass_2" },
+        "cracks=9": { "model": "sweettooth:block/sugar_glass_2" },
+        "cracks=10": { "model": "sweettooth:block/sugar_glass_2" },
+        "cracks=11": { "model": "sweettooth:block/sugar_glass_3" },
+        "cracks=12": { "model": "sweettooth:block/sugar_glass_3" },
+        "cracks=13": { "model": "sweettooth:block/sugar_glass_3" },
+        "cracks=14": { "model": "sweettooth:block/sugar_glass_3" },
+        "cracks=15": { "model": "sweettooth:block/sugar_glass_3" }
     }
 }

@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.shnupbups.sweettooth.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "CakeBlockMixin"
+  ],
+  "minVersion": "0.8",
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "sweettooth:block/brown_candle_chocolate_cake"
+    },
+    "lit=true": {
+      "model": "sweettooth:block/brown_candle_chocolate_cake_lit"
+    }
+  }
+}

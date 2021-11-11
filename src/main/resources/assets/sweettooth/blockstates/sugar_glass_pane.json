@@ -1,6 +1,7 @@
 {
     "multipart": [
         {   "apply": { "model": "sweettooth:block/sugar_glass_pane_post" }},
+        
         {   "when": { "north": true, "cracks": 0 },
             "apply": { "model": "sweettooth:block/sugar_glass_pane_side" }
         },
@@ -25,6 +26,7 @@
         {   "when": { "west": false, "cracks": 0 },
             "apply": { "model": "sweettooth:block/sugar_glass_pane_noside", "y": 270 }
         },
+        
         {   "when": { "north": true, "cracks": 1 },
             "apply": { "model": "sweettooth:block/sugar_glass_pane_side_1" }
         },
@@ -50,51 +52,341 @@
             "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_1", "y": 270 }
         },
         {   "when": { "north": true, "cracks": 2 },
-            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_2" }
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_1" }
         },
         {   "when": { "east": true, "cracks": 2 },
-            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_2", "y": 90 }
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_1", "y": 90 }
         },
         {   "when": { "south": true, "cracks": 2 },
-            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_alt_2" }
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_alt_1" }
         },
         {   "when": { "west": true, "cracks": 2 },
-            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_alt_2", "y": 90 }
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_alt_1", "y": 90 }
         },
         {   "when": { "north": false, "cracks": 2 },
-            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_2" }
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_1" }
         },
         {   "when": { "east": false, "cracks": 2 },
-            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_alt_2" }
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_alt_1" }
         },
         {   "when": { "south": false, "cracks": 2 },
-            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_alt_2", "y": 90 }
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_alt_1", "y": 90 }
         },
         {   "when": { "west": false, "cracks": 2 },
-            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_2", "y": 270 }
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_1", "y": 270 }
         },
         {   "when": { "north": true, "cracks": 3 },
-            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_3" }
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_1" }
         },
         {   "when": { "east": true, "cracks": 3 },
-            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_3", "y": 90 }
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_1", "y": 90 }
         },
         {   "when": { "south": true, "cracks": 3 },
-            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_alt_3" }
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_alt_1" }
         },
         {   "when": { "west": true, "cracks": 3 },
-            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_alt_3", "y": 90 }
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_alt_1", "y": 90 }
         },
         {   "when": { "north": false, "cracks": 3 },
-            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_3" }
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_1" }
         },
         {   "when": { "east": false, "cracks": 3 },
-            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_alt_3" }
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_alt_1" }
         },
         {   "when": { "south": false, "cracks": 3 },
-            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_alt_3", "y": 90 }
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_alt_1", "y": 90 }
         },
         {   "when": { "west": false, "cracks": 3 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_1", "y": 270 }
+        },
+        {   "when": { "north": true, "cracks": 4 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_1" }
+        },
+        {   "when": { "east": true, "cracks": 4 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_1", "y": 90 }
+        },
+        {   "when": { "south": true, "cracks": 4 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_alt_1" }
+        },
+        {   "when": { "west": true, "cracks": 4 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_alt_1", "y": 90 }
+        },
+        {   "when": { "north": false, "cracks": 4 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_1" }
+        },
+        {   "when": { "east": false, "cracks": 4 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_alt_1" }
+        },
+        {   "when": { "south": false, "cracks": 4 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_alt_1", "y": 90 }
+        },
+        {   "when": { "west": false, "cracks": 4 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_1", "y": 270 }
+        },
+        {   "when": { "north": true, "cracks": 5 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_1" }
+        },
+        {   "when": { "east": true, "cracks": 5 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_1", "y": 90 }
+        },
+        {   "when": { "south": true, "cracks": 5 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_alt_1" }
+        },
+        {   "when": { "west": true, "cracks": 5 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_alt_1", "y": 90 }
+        },
+        {   "when": { "north": false, "cracks": 5 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_1" }
+        },
+        {   "when": { "east": false, "cracks": 5 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_alt_1" }
+        },
+        {   "when": { "south": false, "cracks": 5 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_alt_1", "y": 90 }
+        },
+        {   "when": { "west": false, "cracks": 5 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_1", "y": 270 }
+        },
+        
+        {   "when": { "north": true, "cracks": 6 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_2" }
+        },
+        {   "when": { "east": true, "cracks": 6 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_2", "y": 90 }
+        },
+        {   "when": { "south": true, "cracks": 6 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_alt_2" }
+        },
+        {   "when": { "west": true, "cracks": 6 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_alt_2", "y": 90 }
+        },
+        {   "when": { "north": false, "cracks": 6 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_2" }
+        },
+        {   "when": { "east": false, "cracks": 6 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_alt_2" }
+        },
+        {   "when": { "south": false, "cracks": 6 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_alt_2", "y": 90 }
+        },
+        {   "when": { "west": false, "cracks": 6 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_2", "y": 270 }
+        },
+        {   "when": { "north": true, "cracks": 7 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_2" }
+        },
+        {   "when": { "east": true, "cracks": 7 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_2", "y": 90 }
+        },
+        {   "when": { "south": true, "cracks": 7 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_alt_2" }
+        },
+        {   "when": { "west": true, "cracks": 7 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_alt_2", "y": 90 }
+        },
+        {   "when": { "north": false, "cracks": 7 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_2" }
+        },
+        {   "when": { "east": false, "cracks": 7 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_alt_2" }
+        },
+        {   "when": { "south": false, "cracks": 7 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_alt_2", "y": 90 }
+        },
+        {   "when": { "west": false, "cracks": 7 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_2", "y": 270 }
+        },
+        {   "when": { "north": true, "cracks": 8 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_2" }
+        },
+        {   "when": { "east": true, "cracks": 8 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_2", "y": 90 }
+        },
+        {   "when": { "south": true, "cracks": 8 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_alt_2" }
+        },
+        {   "when": { "west": true, "cracks": 8 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_alt_2", "y": 90 }
+        },
+        {   "when": { "north": false, "cracks": 8 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_2" }
+        },
+        {   "when": { "east": false, "cracks": 8 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_alt_2" }
+        },
+        {   "when": { "south": false, "cracks": 8 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_alt_2", "y": 90 }
+        },
+        {   "when": { "west": false, "cracks": 8 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_2", "y": 270 }
+        },
+        {   "when": { "north": true, "cracks": 9 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_2" }
+        },
+        {   "when": { "east": true, "cracks": 9 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_2", "y": 90 }
+        },
+        {   "when": { "south": true, "cracks": 9 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_alt_2" }
+        },
+        {   "when": { "west": true, "cracks": 9 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_alt_2", "y": 90 }
+        },
+        {   "when": { "north": false, "cracks": 9 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_2" }
+        },
+        {   "when": { "east": false, "cracks": 9 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_alt_2" }
+        },
+        {   "when": { "south": false, "cracks": 9 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_alt_2", "y": 90 }
+        },
+        {   "when": { "west": false, "cracks": 9 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_2", "y": 270 }
+        },
+        {   "when": { "north": true, "cracks": 10 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_2" }
+        },
+        {   "when": { "east": true, "cracks": 10 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_2", "y": 90 }
+        },
+        {   "when": { "south": true, "cracks": 10 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_alt_2" }
+        },
+        {   "when": { "west": true, "cracks": 10 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_alt_2", "y": 90 }
+        },
+        {   "when": { "north": false, "cracks": 10 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_2" }
+        },
+        {   "when": { "east": false, "cracks": 10 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_alt_2" }
+        },
+        {   "when": { "south": false, "cracks": 10 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_alt_2", "y": 90 }
+        },
+        {   "when": { "west": false, "cracks": 10 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_2", "y": 270 }
+        },
+
+        {   "when": { "north": true, "cracks": 11 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_3" }
+        },
+        {   "when": { "east": true, "cracks": 11 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_3", "y": 90 }
+        },
+        {   "when": { "south": true, "cracks": 11 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_alt_3" }
+        },
+        {   "when": { "west": true, "cracks": 11 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_alt_3", "y": 90 }
+        },
+        {   "when": { "north": false, "cracks": 11 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_3" }
+        },
+        {   "when": { "east": false, "cracks": 11 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_alt_3" }
+        },
+        {   "when": { "south": false, "cracks": 11 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_alt_3", "y": 90 }
+        },
+        {   "when": { "west": false, "cracks": 11 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_3", "y": 270 }
+        },
+        {   "when": { "north": true, "cracks": 12 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_3" }
+        },
+        {   "when": { "east": true, "cracks": 12 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_3", "y": 90 }
+        },
+        {   "when": { "south": true, "cracks": 12 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_alt_3" }
+        },
+        {   "when": { "west": true, "cracks": 12 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_alt_3", "y": 90 }
+        },
+        {   "when": { "north": false, "cracks": 12 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_3" }
+        },
+        {   "when": { "east": false, "cracks": 12 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_alt_3" }
+        },
+        {   "when": { "south": false, "cracks": 12 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_alt_3", "y": 90 }
+        },
+        {   "when": { "west": false, "cracks": 12 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_3", "y": 270 }
+        },
+        {   "when": { "north": true, "cracks": 13 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_3" }
+        },
+        {   "when": { "east": true, "cracks": 13 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_3", "y": 90 }
+        },
+        {   "when": { "south": true, "cracks": 13 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_alt_3" }
+        },
+        {   "when": { "west": true, "cracks": 13 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_alt_3", "y": 90 }
+        },
+        {   "when": { "north": false, "cracks": 13 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_3" }
+        },
+        {   "when": { "east": false, "cracks": 13 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_alt_3" }
+        },
+        {   "when": { "south": false, "cracks": 13 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_alt_3", "y": 90 }
+        },
+        {   "when": { "west": false, "cracks": 13 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_3", "y": 270 }
+        },
+        {   "when": { "north": true, "cracks": 14 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_3" }
+        },
+        {   "when": { "east": true, "cracks": 14 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_3", "y": 90 }
+        },
+        {   "when": { "south": true, "cracks": 14 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_alt_3" }
+        },
+        {   "when": { "west": true, "cracks": 14 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_alt_3", "y": 90 }
+        },
+        {   "when": { "north": false, "cracks": 14 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_3" }
+        },
+        {   "when": { "east": false, "cracks": 14 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_alt_3" }
+        },
+        {   "when": { "south": false, "cracks": 14 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_alt_3", "y": 90 }
+        },
+        {   "when": { "west": false, "cracks": 14 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_3", "y": 270 }
+        },
+        {   "when": { "north": true, "cracks": 15 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_3" }
+        },
+        {   "when": { "east": true, "cracks": 15 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_3", "y": 90 }
+        },
+        {   "when": { "south": true, "cracks": 15 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_alt_3" }
+        },
+        {   "when": { "west": true, "cracks": 15 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_side_alt_3", "y": 90 }
+        },
+        {   "when": { "north": false, "cracks": 15 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_3" }
+        },
+        {   "when": { "east": false, "cracks": 15 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_alt_3" }
+        },
+        {   "when": { "south": false, "cracks": 15 },
+            "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_alt_3", "y": 90 }
+        },
+        {   "when": { "west": false, "cracks": 15 },
             "apply": { "model": "sweettooth:block/sugar_glass_pane_noside_3", "y": 270 }
         }
     ]

@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "minecraft:cake",
-    "sweettooth:chocolate_cake"
+    "#minecraft:candle_cakes",
+    "#sweettooth:uncandled_cakes"
   ]
 }

@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-    "item": "sweettooth:sugar_sand"
+    "item": "sweettooth:sugar_block"
   },
   "result": "sweettooth:sugar_glass",
   "experience": 0.1,

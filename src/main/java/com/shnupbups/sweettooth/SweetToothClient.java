@@ -1,14 +1,12 @@
 package com.shnupbups.sweettooth;
 
-import net.fabricmc.api.ClientModInitializer;
-import net.fabricmc.fabric.api.client.render.ColorProviderRegistry;
-import net.fabricmc.fabric.impl.blockrenderlayer.BlockRenderLayerMapImpl;
-
-import net.minecraft.client.render.RenderLayer;
-import net.minecraft.item.DyeableItem;
-
 import com.shnupbups.sweettooth.init.ModBlocks;
 import com.shnupbups.sweettooth.init.ModItems;
+import net.fabricmc.api.ClientModInitializer;
+import net.fabricmc.fabric.api.client.rendering.v1.ColorProviderRegistry;
+import net.fabricmc.fabric.impl.blockrenderlayer.BlockRenderLayerMapImpl;
+import net.minecraft.client.render.RenderLayer;
+import net.minecraft.item.DyeableItem;
 
 @SuppressWarnings("unused")
 public class SweetToothClient implements ClientModInitializer {
