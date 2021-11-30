@@ -1,5 +1,8 @@
 {
   "item.sweettooth.cotton_candy": "Candy Floss",
   "item.sweettooth.sweet_jelly": "Sweet Jam",
-  "item.sweettooth.glow_jelly": "Glow Jam"
+  "item.sweettooth.glow_jelly": "Glow Jam",
+
+  "block.sweettooth.gray_non_setting_concrete_powder": "Grey Non-Setting Concrete Powder",
+  "block.sweettooth.light_gray_non_setting_concrete_powder": "Light Grey Non-Setting Concrete Powder"
 }

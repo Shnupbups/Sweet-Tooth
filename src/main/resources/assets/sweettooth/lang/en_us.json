@@ -10,8 +10,26 @@
   "item.sweettooth.sugar_dusted_charcoal": "Sugar Dusted Charcoal",
   
   "block.sweettooth.sugar_block": "Sugar Block",
-  "block.sweettooth.sugar_sand": "Sugar Sand",
+
   "block.sweettooth.sugar_glass": "Sugar Glass",
   "block.sweettooth.sugar_glass_pane": "Sugar Glass Pane",
-  "block.sweettooth.chocolate_cake": "Chocolate Cake"
+
+  "block.sweettooth.chocolate_cake": "Chocolate Cake",
+
+  "block.sweettooth.white_non_setting_concrete_powder": "White Non-Setting Concrete Powder",
+  "block.sweettooth.orange_non_setting_concrete_powder": "Orange Non-Setting Concrete Powder",
+  "block.sweettooth.magenta_non_setting_concrete_powder": "Magenta Non-Setting Concrete Powder",
+  "block.sweettooth.light_blue_non_setting_concrete_powder": "Light Blue Non-Setting Concrete Powder",
+  "block.sweettooth.yellow_non_setting_concrete_powder": "Yellow Non-Setting Concrete Powder",
+  "block.sweettooth.lime_non_setting_concrete_powder": "Lime Non-Setting Concrete Powder",
+  "block.sweettooth.pink_non_setting_concrete_powder": "Pink Non-Setting Concrete Powder",
+  "block.sweettooth.gray_non_setting_concrete_powder": "Gray Non-Setting Concrete Powder",
+  "block.sweettooth.light_gray_non_setting_concrete_powder": "Light Gray Non-Setting Concrete Powder",
+  "block.sweettooth.cyan_non_setting_concrete_powder": "Cyan Non-Setting Concrete Powder",
+  "block.sweettooth.purple_non_setting_concrete_powder": "Purple Non-Setting Concrete Powder",
+  "block.sweettooth.blue_non_setting_concrete_powder": "Blue Non-Setting Concrete Powder",
+  "block.sweettooth.brown_non_setting_concrete_powder": "Brown Non-Setting Concrete Powder",
+  "block.sweettooth.green_non_setting_concrete_powder": "Green Non-Setting Concrete Powder",
+  "block.sweettooth.red_non_setting_concrete_powder": "Red Non-Setting Concrete Powder",
+  "block.sweettooth.black_non_setting_concrete_powder": "Black Non-Setting Concrete Powder"
 }

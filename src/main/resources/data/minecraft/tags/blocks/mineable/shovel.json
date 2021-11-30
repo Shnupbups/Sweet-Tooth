@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "sweettooth:sugar_block"
+    "sweettooth:sugar_block",
+    "#sweettooth:non_setting_concrete_powders"
   ]
 }
